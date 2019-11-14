@@ -1,4 +1,7 @@
-.box {
+
+
+
+/* .box {
   height: 400px;
   padding: 20px;
   color: #fff;
@@ -7,4 +10,40 @@
 
 .margin-top-80 {
   margin-top: 80px;
+} */
+
+.navbar {
+  height: 100px;
+  padding-top: 20px;
+  /* background: rgb(231, 225, 225); */
+}
+.navbar li {
+  display: inline-block;
+  padding: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+.navbar li a {
+  color: rgb(240, 235, 235);
+  text-decoration: none;
+}
+.body {
+  background-image: url("wallpaper10.jfif");
+  /* background-position: center;
+  background-height: 1500px; */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.header {
+  color: rgb(240, 235, 235);
+}
+
+.summary {
+  color: rgb(240, 235, 235);
+}
+
+.foot {
+  background-color: black;
 }
