@@ -1,17 +1,4 @@
 
-
-
-/* .box {
-  height: 400px;
-  padding: 20px;
-  color: #fff;
-  background: deepskyblue;
-}
-
-.margin-top-80 {
-  margin-top: 80px;
-} */
-
 .navbar {
   height: 100px;
   padding-top: 20px;
@@ -26,15 +13,18 @@
   border-radius: 3px;
 }
 .navbar li a {
-  color: rgb(240, 235, 235);
+  color: rgb(241, 233, 233);
   text-decoration: none;
 }
 .body {
   background-image: url("wallpaper10.jfif");
-  /* background-position: center;
-  background-height: 1500px; */
   background-repeat: no-repeat;
   background-size: cover;
+}
+h2 {
+  text-align: right;
+  font: italic;
+  text-shadow: cornsilk;
 }
 .header {
   color: rgb(240, 235, 235);
@@ -46,4 +36,11 @@
 
 .foot {
   background-color: black;
+}
+
+/* .box {
+  height: 400px;
+  padding: 20px;
+  color: #fff;
+  background: deepskyblue;
 }
