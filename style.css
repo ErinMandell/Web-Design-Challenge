@@ -2,7 +2,6 @@
 .navbar {
   height: 100px;
   padding-top: 20px;
-  /* background: rgb(231, 225, 225); */
 }
 .navbar li {
   display: inline-block;
@@ -15,17 +14,28 @@
 .navbar li a {
   color: rgb(241, 233, 233);
   text-decoration: none;
+
 }
+
+/* this active feature isn't working */
+.active {
+  text-decoration-line: underline;
+}
+
+.drop {
+  background-color: black;
+}
+
+.drop2 {
+  background-color: tan;
+}
+
 .body {
   background-image: url("wallpaper10.jfif");
   background-repeat: no-repeat;
   background-size: cover;
 }
-h2 {
-  text-align: right;
-  font: italic;
-  text-shadow: cornsilk;
-}
+
 .header {
   color: rgb(240, 235, 235);
 }
@@ -39,8 +49,14 @@ h2 {
 }
 
 /* .box {
-  height: 400px;
+  height: 100px;
   padding: 20px;
   color: #fff;
-  background: deepskyblue;
-}
+  background: black;
+} */
+
+
+.comparison {
+  background-image: url("wallpaper4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
