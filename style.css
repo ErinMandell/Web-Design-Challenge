@@ -31,6 +31,7 @@
 }
 
 .body {
+  background-color: black;
   background-image: url("wallpaper10.jfif");
   background-repeat: no-repeat;
   background-size: cover;
@@ -44,10 +45,6 @@
   color: rgb(240, 235, 235);
 }
 
-.foot {
-  background-color: black;
-}
-
 /* .box {
   height: 100px;
   padding: 20px;
@@ -58,5 +55,10 @@
 
 .comparison {
   background-image: url("wallpaper4.jpg");
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat; */
   background-size: cover;
+}
+
+.note {
+  font-size: 6; 
+}
