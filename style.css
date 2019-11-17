@@ -32,26 +32,48 @@
 
 .body {
   background-color: black;
-  background-image: url("wallpaper10.jfif");
+}
+
+.back-image {
+  background-image: url("wallpaper10d.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.header {
+.text-format {
   color: rgb(240, 235, 235);
 }
 
-.summary {
-  color: rgb(240, 235, 235);
+h2 {
+  padding-left: 40px;
 }
 
-/* .box {
-  height: 100px;
-  padding: 20px;
-  color: #fff;
-  background: black;
-} */
+.header-pad {
+  padding-left: 220px;
+  padding-right: 80px;
+}
 
+.pad {
+  padding-left: 280px;
+  padding-right: 80px;
+}
+
+.pad2 {
+  padding-left: 340px;
+  padding-right: 150px;
+}
+
+.pad3 {
+  padding-left: 380px;
+  padding-right: 112px;
+}
+
+#image {
+  width: 320px;
+  height: 200px;
+  justify-content:right;
+  padding: 10px;
+}
 
 .comparison {
   background-image: url("wallpaper4.jpg");
