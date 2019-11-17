@@ -15,10 +15,9 @@
 
 <body class="comparison"> 
     <nav class="navbar">
-        <ul>
-            <li><a href="/index.html"><strong>Players Home</strong></a></li>
+        <ul><li><a href="/index.html"><strong>Players Home</strong></a></li>
           
-            <li class="nav-item dropdown">
+            <li class="nav-item dropdown nav-link active">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" 
                 role="button" data-toggle="dropdown" aria-haspopup="true"
                 aria-expanded="false"><strong>Visualizations</strong></a>
@@ -35,25 +34,22 @@
             <li><a href="/data.html"><strong>Data</strong></a></li>
             <li><a href="#"><strong>Links</strong></a></li>
         </ul>
-
     </nav>
 
     <br>
-    <br>
 
     <div class="container">
-        <div class="row header">
-            <div class="col-md-8">
+        <div class="row text-format">
+            <div class="col-md-10">
                 <h1>Points Scored per Season</h1>
-            </div>
+                <br>
+                <div class="vis">
+                    <img src="../Images/Min_Played_vs_Total_Pts.png">
+                </div>
 
-            <br>
-            <br>
-            <br>
-            <br>
-        <div class="row">
-            <div class="col-lg-6">
-                <article>
+                <br>
+
+                <article class="article1">
                     <p>  The total average points scored per player each season peaked in 1967 at 735 points,
                          and then saw a gradual decline in the '70's, '80's, and 90's.  The average points 
                          scored then leveled out starting around the year 2000 to a range of 450-500. 
@@ -73,9 +69,13 @@
                     </p>
                 </article>
             </div>
-            <div class="col-lg-6" >
-                <img src="../Images/Min_Played_vs_Total_Pts.png">
 
+            <div class="col-md-2">
+                <img class="img-responsive" id="image" src="../Images/Min_Played_vs_Total_Pts.png">
+                <img class="img-responsive" id="image" src="../Images/Avg_Yearly_Pts.png">
+                <img class="img-responsive" id="image" src="../Images/Points_by_Position.png">
+                <img class="img-responsive" id="image" src="../Images/Avg_Player_Height.png">
             </div>
-
         </div>
+    </div>
+</body>

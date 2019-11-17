@@ -13,11 +13,8 @@
 }
 .navbar li a {
   color: rgb(241, 233, 233);
-  text-decoration: none;
-
 }
 
-/* this active feature isn't working */
 .active {
   text-decoration-line: underline;
 }
@@ -48,10 +45,10 @@ h2 {
   padding-left: 40px;
 }
 
-.header-pad {
+/* .header-pad {
   padding-left: 220px;
   padding-right: 80px;
-}
+} */
 
 .pad {
   padding-left: 280px;
@@ -73,6 +70,14 @@ h2 {
   height: 200px;
   justify-content:right;
   padding: 10px;
+}
+
+.vis {
+  justify-content:right;
+}
+
+.article1 {
+  padding-right: 260px;
 }
 
 .comparison {

@@ -18,7 +18,7 @@
         <ul>
             <li><a href="/index.html"><strong>Players Home</strong></a></li>
           
-            <li class="nav-item dropdown">
+            <li class="nav-item dropdown nav-item active">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" 
                 role="button" data-toggle="dropdown" aria-haspopup="true"
                 aria-expanded="false"><strong>Visualizations</strong></a>
@@ -39,20 +39,19 @@
     </nav>
 
     <br>
-    <br>
 
     <div class="container">
-        <div class="row header">
-            <div class="col-md-12">
+        <div class="row text-format">
+            <div class="col-md-10">
                 <h1>Average Points Scored by Position</h1>
-            </div>
-            <br>
-            <br>
-            <br>
-            <br>
-        <div class="row">
-            <div class="col-lg-6">
-                <article>
+                <br>
+                <div class="vis">
+                    <img src="../Images/Points_by_Position.png"> 
+                </div>
+
+                <br>
+
+                <article class="article1">
                     <p> This need text here
                     </p>
                     <p>      
@@ -61,9 +60,13 @@
 
                 </article>
             </div>
-            <div class="col-lg-6" >
-                <img src="../Images/Points_by_Position.png">
 
+            <div class="col-md-2">
+                <img class="img-responsive" id="image" src="../Images/Min_Played_vs_Total_Pts.png">
+                <img class="img-responsive" id="image" src="../Images/Avg_Yearly_Pts.png">
+                <img class="img-responsive" id="image" src="../Images/Points_by_Position.png">
+                <img class="img-responsive" id="image" src="../Images/Avg_Player_Height.png">
             </div>
-
         </div>
+    </div>
+</body>
