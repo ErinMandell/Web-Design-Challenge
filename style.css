@@ -14,30 +14,35 @@
 .navbar li a {
   color: rgb(241, 233, 233);
 }
-
+/* change nav background color when page is active */
 .active {
   text-decoration-line: underline;
   background-color: darkred;
 }
 
+/* set background color on dropdown from index page */
 .drop {
   background-color: black;
 }
 
+/* set background color on dropdown from all except index page */
 .drop2 {
   background-color: darkred;
 }
 
+/* set index page background color to black behind wallpaper */
 .body {
   background-color: black;
 }
 
+/* set wallpaper image for index page */
 .back-image {
   background-image: url("wallpaper10d.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
+/* set text formatting for menu dropdown */
 .text-format {
   color: rgb(240, 235, 235);
 }
@@ -46,26 +51,25 @@ h2 {
   padding-left: 40px;
 }
 
-/* .header-pad {
-  padding-left: 220px;
-  padding-right: 80px;
-} */
-
+/* offset paragraph on index page */
 .pad {
   padding-left: 280px;
   padding-right: 80px;
 }
 
+/* offset 2nd paragraph on index page */
 .pad2 {
   padding-left: 340px;
   padding-right: 150px;
 }
-
+ 
+/* offset 3rd paragraph on index page */
 .pad3 {
   padding-left: 380px;
   padding-right: 112px;
 }
 
+/* settings for plots on right side of pages */
 #image {
   width: 320px;
   height: 200px;
@@ -77,12 +81,60 @@ h2 {
   justify-content:right;
 }
 
+/* paragraph padding on visualization pages */
 .article1 {
   padding-right: 260px;
 }
 
+/* set wallpaper for non-index pages */
 .comparison {
   background-image: url("wallpaper4.jpg");
-  /* background-repeat: no-repeat; */
   background-size: cover;
+}
+
+
+@media(max-width: 992px) {
+
+.navbar li {
+  padding: 0px;
+  margin-right: 5px;
+  margin-left: 0px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+/* set wallpaper image for index page */
+.back-image {
+  background-image: url();
+  background-color: black;
+}
+
+h2 {
+  padding-left: 0px;
+}
+
+#image {
+  width: 320px;
+  height: 200px;
+  padding: 10px;
+}
+
+/* offset paragraph on index page */
+.pad {
+  padding-left: 20px;
+  padding-right: 80px;
+}
+
+/* offset 2nd paragraph on index page */
+.pad2 {
+  padding-left: 20px;
+  padding-right: 150px;
+}
+ 
+/* offset 3rd paragraph on index page */
+.pad3 {
+  padding-left: 20px;
+  padding-right: 112px;
+}
+
 }
