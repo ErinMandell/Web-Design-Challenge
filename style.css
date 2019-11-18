@@ -5,11 +5,10 @@
 }
 .navbar li {
   display: inline-block;
-  padding: 20px;
+  padding: 10px;
   margin-right: 10px;
   margin-left: 10px;
   cursor: pointer;
-  border-radius: 3px;
 }
 .navbar li a {
   color: rgb(241, 233, 233);
@@ -17,7 +16,7 @@
 /* change nav background color when page is active */
 .active {
   text-decoration-line: underline;
-  background-color: darkred;
+  font: italic;
 }
 
 /* set background color on dropdown from index page */
@@ -25,10 +24,10 @@
   background-color: black;
 }
 
-/* set background color on dropdown from all except index page */
+/* set background color on dropdown from all except index page
 .drop2 {
-  background-color: darkred;
-}
+  background-color: black;
+} */
 
 /* set index page background color to black behind wallpaper */
 .body {
