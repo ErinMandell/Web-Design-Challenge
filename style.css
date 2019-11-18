@@ -137,4 +137,9 @@ h2 {
   padding-right: 112px;
 }
 
+/* paragraph padding on visualization pages */
+.article1 {
+  padding-right: 20px;
+}
+
 }
