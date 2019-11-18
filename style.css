@@ -17,6 +17,7 @@
 
 .active {
   text-decoration-line: underline;
+  background-color: darkred;
 }
 
 .drop {
@@ -24,7 +25,7 @@
 }
 
 .drop2 {
-  background-color: tan;
+  background-color: darkred;
 }
 
 .body {
