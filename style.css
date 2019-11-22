@@ -24,10 +24,10 @@
   background-color: black;
 }
 
-/* set background color on dropdown from all except index page
+set background color on dropdown from all except index page
 .drop2 {
-  background-color: black;
-} */
+  background-color: rgb(241, 233, 233);
+}
 
 /* set index page background color to black behind wallpaper */
 .body {
@@ -52,6 +52,11 @@ h2 {
 
 /* offset paragraph on index page */
 .pad {
+  padding-left: 200px;
+  padding-right: 80px;
+}
+
+.pad1 {
   padding-left: 280px;
   padding-right: 80px;
 }
