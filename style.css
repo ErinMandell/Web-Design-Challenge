@@ -126,8 +126,8 @@ tr:hover {background-color: whitesmoke;
 
 /* set wallpaper image for index page */
 .back-image {
-  background-image: url("wallpaper10e.jpg");
   background-color: black;
+  background-image: url("wallpaper10f.jpg");
 }
 
 h2 {
