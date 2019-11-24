@@ -75,8 +75,8 @@ h2 {
 
 /* settings for plots on right side of pages */
 #image {
-  width: 320px;
-  height: 200px;
+  width: 280px;
+  height: 180px;
   justify-content:right;
   padding: 10px;
 }
@@ -127,7 +127,7 @@ tr:hover {background-color: whitesmoke;
 /* set wallpaper image for index page */
 .back-image {
   background-color: black;
-  background-image: url("wallpaper10g.jpg");
+  background-image: url("wallpaper10h.jpg");
 }
 
 h2 {
