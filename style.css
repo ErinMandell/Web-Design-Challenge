@@ -126,7 +126,7 @@ tr:hover {background-color: whitesmoke;
 
 /* set wallpaper image for index page */
 .back-image {
-  background-image: url();
+  background-image: url("wallpaper10e.jpg");
   background-color: black;
 }
 
@@ -146,6 +146,7 @@ h2 {
   padding-left: 20px;
   padding-right: 80px;
 }
+
 
 /* offset 2nd paragraph on index page */
 .pad2 {
