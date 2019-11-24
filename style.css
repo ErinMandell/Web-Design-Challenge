@@ -96,7 +96,24 @@ h2 {
   background-size: cover;
 }
 
+/* set background for data page */
+.data {
+  background-color: tan;
+}
 
+.table {
+  width: 75%
+}
+
+th {
+  text-align: left;
+  height: 100%;
+}
+
+tr:hover {background-color: whitesmoke;
+}
+
+/* ********************************************* */
 @media(max-width: 992px) {
 
 .navbar li {
@@ -117,6 +134,7 @@ h2 {
   padding-left: 0px;
 }
 
+/* settings for plots on right side of pages */
 #image {
   width: 320px;
   height: 200px;
